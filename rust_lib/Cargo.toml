@@ -1,0 +1,10 @@
+[package]
+name = "rust_math_lib"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_math_lib"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
