@@ -1,10 +1,10 @@
-# Rust-CMake Integration with cbindgen and Corrosion
+# Rust-CMake Template with cbindgen and Corrosion
 
-A comprehensive example demonstrating how to integrate Rust libraries with C++ projects using **cbindgen** for C header generation and **Corrosion** for CMake integration.
+A comprehensive template for integrating Rust libraries with C++ projects using **cbindgen** for C header generation and **Corrosion** for CMake integration.
 
 ## Overview
 
-This project showcases the complete workflow of:
+This template provides a complete workflow for:
 - Writing Rust functions that can be called from C/C++
 - Automatically generating C header files with **cbindgen**
 - Integrating Rust libraries into CMake builds with **Corrosion**
@@ -13,7 +13,7 @@ This project showcases the complete workflow of:
 ## Project Structure
 
 ```
-rust_cmake/
+rust_cmake_template/
 ├── rust_lib/                   # Rust library
 │   ├── src/
 │   │   └── lib.rs             # Rust source code with exported functions
@@ -56,7 +56,7 @@ The Rust library (`rust_lib`) provides two simple mathematical functions:
 
 ```bash
 # Navigate to the project directory
-cd rust_cmake
+cd rust_cmake_template
 
 # Run the CMake build script
 ./scripts/build.sh
@@ -200,4 +200,4 @@ rm -rf build rust_lib/target include
 
 ## License
 
-This project is provided as an educational example. Feel free to use it as a starting point for your own Rust-C++ integration projects.
+This template is provided as a starting point for Rust-C++ integration projects. Feel free to use and modify it for your own projects.

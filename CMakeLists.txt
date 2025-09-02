@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(rust_cmake)
+project(rust_cmake_template)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
